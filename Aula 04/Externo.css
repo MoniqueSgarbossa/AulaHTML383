@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(99, 160, 201);
+    font-family: Ubuntu;
+}
+
+h2 {
+    color: white;
+    font-size: 25pt;
+    text-align: center;
+}
+
+p {
+    background-color: white;
+    border: 1px solid black;
+    border-width: 6px;
+    border-color: black;
+    border-style: dotted;
+    padding: 15px;
+    /* Deixa um espaço da borda até o texto */
+    width: 300px;
+    /* Muda a largura */
+    text-align: justify;
+    margin-top: 60px;
+    /* Deixa margem */
+    margin-left: 332px;
+}
