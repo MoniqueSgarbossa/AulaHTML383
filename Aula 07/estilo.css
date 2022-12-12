@@ -1,0 +1,40 @@
+body {
+    background-color: #a4b602;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    width: 800px;
+}
+
+h2 {
+    font-family: Ubuntu;
+    font-size: 20pt;
+    text-transform: uppercase;
+    text-align: center;
+    color: #a4b602;
+    margin-top: 15px;
+}
+
+p {
+    font-family: Ubuntu;
+    font-size: 15pt;
+    text-indent: 0.5cm;
+    text-align: justify;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.alinhamento {
+    text-align: center;
+}
