@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Rowspan</title>
+</head>
+<style>
+    table {
+        border-collapse: collapse;
+    }
+
+    td {
+        font-family: Ubuntu;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .cor {
+        background-color: #5f5fe0;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <table border="1">
+        <tr class="cor">
+            <td>Turma</td>
+            <td>Alunos</td>
+        </tr>
+        <tr>
+            <td rowspan="5" class="cor">383</td>
+            <!-- ROWSPAN = Mescla as células da linhas -->
+            <td>Henrique</td>
+        </tr>
+        <tr>
+            <td>Éric</td>
+        </tr>
+        <tr>
+            <td>Dante</td>
+        </tr>
+        <tr>
+            <td>Paulo</td>
+        </tr>
+        <tr>
+            <td>Blaiton</td>
+        </tr>
+    </table>
+</body>
+
+</html>
